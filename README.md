@@ -2,6 +2,8 @@
 
 Intro Funnel 스킬이 만든 결과(병목 지도 · 분야 동향 요약 · 인트로 참고문헌)를 브라우저에서 읽고, 주제마다 내 판단과 메모를 남기는 웹 앱 초안입니다. AI+X HW5 제출물.
 
+배포 주소: https://bottleneck-map-tau.vercel.app (Vercel, GitHub `Charleskim99/bottleneck-map`의 master를 push하면 자동 재배포)
+
 ## 구성 (화면 · 처리 · 저장 · 배포)
 
 | 조각 | 도구 | 파일 |
