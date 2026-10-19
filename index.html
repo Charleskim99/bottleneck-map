@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>병목 지도 뷰어</title>
+<meta name="description" content="Intro Funnel 실행 결과(병목 지도·동향 요약·참고문헌)를 보고 판단을 남기는 웹 앱 초안">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3864'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3EIF%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">IF</span>
+    <div>
+      <h1>병목 지도 뷰어</h1>
+      <p class="sub">Intro Funnel이 모은 근거를 화면에서 읽고, 내 판단을 남깁니다</p>
+    </div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab is-active" data-tab="map" role="tab">병목 지도</button>
+    <button class="tab" data-tab="radar" role="tab">동향 요약</button>
+    <button class="tab" data-tab="refs" role="tab">참고문헌</button>
+    <button class="tab" data-tab="label" role="tab">문장 판정</button>
+    <button class="tab" data-tab="about" role="tab">소개</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ======================================================== 병목 지도 -->
+  <section id="tab-map" class="panel is-active">
+    <div class="toolbar">
+      <div class="chips" id="status-chips">
+        <button class="chip is-on" data-status="all">전체</button>
+        <button class="chip" data-status="열려 있음">열려 있음</button>
+        <button class="chip" data-status="경쟁 중">경쟁 중</button>
+        <button class="chip" data-status="해결 주장 우세">해결 주장 우세</button>
+        <button class="chip" data-status="근거 부족">근거 부족</button>
+      </div>
+      <select id="stage-select" aria-label="공정 단계">
+        <option value="all">모든 단계</option>
+      </select>
+      <input id="search" type="search" placeholder="주제·인용문·저자 검색" aria-label="검색">
+      <label class="toggle"><input type="checkbox" id="show-excluded"> 제외 논문도 표시</label>
+    </div>
+    <p class="hint" id="map-summary"></p>
+    <div class="layout">
+      <div class="table-wrap">
+        <table id="theme-table">
+          <thead><tr><th>병목 주제</th><th>단계</th><th>상태</th><th class="num">논문</th><th class="num">최근 한계</th><th class="num">최근 해결주장</th><th>내 판단</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <aside id="detail" class="detail" aria-live="polite">
+        <p class="placeholder">왼쪽 표에서 주제를 누르면 근거 문장과 출처가 여기에 나옵니다.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ======================================================== 동향 요약 -->
+  <section id="tab-radar" class="panel">
+    <p class="hint" id="radar-summary"></p>
+    <div id="radar-list"></div>
+  </section>
+
+  <!-- ======================================================== 참고문헌 -->
+  <section id="tab-refs" class="panel">
+    <div class="toolbar">
+      <input id="ref-search" type="search" placeholder="제목·저자·저널 검색" aria-label="참고문헌 검색">
+      <a id="ris-link" class="btn" href="data/references_endnote.ris" download>EndNote용 RIS 내려받기</a>
+    </div>
+    <p class="hint" id="refs-summary"></p>
+    <div id="refs-list"></div>
+  </section>
+
+  <!-- ======================================================== 문장 판정 -->
+  <section id="tab-label" class="panel">
+    <div class="card">
+      <h2>초록 문장 한 줄을 넣으면 병목인지 해결 주장인지 판정합니다</h2>
+      <p class="muted">1차 판정은 브라우저 안에서 신호 단어로 합니다(키 필요 없음). AI 판정은 서버 함수가 LLM을 호출하며, 배포 환경에 API 키가 있을 때만 동작합니다.</p>
+      <textarea id="label-input" rows="4" placeholder="예: However, the contact resistance at the chip-to-pad interface remains a major challenge under cyclic strain."></textarea>
+      <div class="row">
+        <button class="btn" id="btn-heuristic">신호 단어 판정</button>
+        <button class="btn primary" id="btn-ai">AI 판정 (서버)</button>
+        <span id="label-status" class="muted"></span>
+      </div>
+      <div id="label-result" class="result"></div>
+      <details class="muted"><summary>판정 기준</summary>
+        <p><b>bottleneck</b>: 아직 부족·제한·미해결·불안정·비용 같은 문제를 말하는 문장. <b>resolution-claim</b>: 그런 문제가 이제 해결·제거·불필요·일상화됐다고 말하는 문장. <b>neither</b>: 방법 설명, 측정값, 목표 문장. 인용은 문장 안의 연속된 구절만 허용합니다.</p>
+      </details>
+    </div>
+    <div class="card">
+      <h3>최근 판정 기록</h3>
+      <p class="muted">이 브라우저에 저장됩니다(새로고침 후에도 유지). 다른 기기와는 공유되지 않습니다.</p>
+      <ul id="label-history" class="plain"></ul>
+    </div>
+  </section>
+
+  <!-- ======================================================== 소개 -->
+  <section id="tab-about" class="panel">
+    <div class="card">
+      <h2>무엇을 보여 주는가</h2>
+      <p>이 화면은 Claude Code 스킬 <b>intro-funnel</b>이 만든 세 가지 결과를 읽기 위한 초안입니다. 병목 지도(초록에서 아직 한계로 적히는 문제와 해결했다고 주장하는 문제를 갈라 센 표), 분야 동향 요약(축별 최신 논문과 승인된 근거), 인트로 참고문헌(하향식 체인 순서의 23편)입니다. 모든 근거 문장은 공개 초록에서 그대로 옮긴 것이고 DOI로 레지스트리(Crossref)와 대조한 것입니다.</p>
+      <h3>화면 · 처리 · 저장 · 배포</h3>
+      <ul>
+        <li><b>화면</b>: 정적 HTML·CSS·JS. 빌드 도구 없이 바로 열립니다. 주소의 해시로 특정 주제나 문장을 바로 열 수 있습니다(<code>#tab=map&amp;theme=BN02</code>, <code>#tab=label&amp;s=문장</code>).</li>
+        <li><b>처리</b>: 신호 단어 판정은 브라우저에서, AI 판정은 Vercel 서버 함수(<code>api/label.py</code>)에서 합니다. API 키는 서버 환경변수에만 둡니다.</li>
+        <li><b>저장</b>: 내 판단·메모·판정 기록은 지금은 브라우저 localStorage에 둡니다. 계정별 저장(Supabase)은 다음 단계입니다.</li>
+        <li><b>배포</b>: Vercel. 저장소를 가져오기만 하면 됩니다.</li>
+      </ul>
+      <h3>아직 안 되는 것</h3>
+      <ul>
+        <li>로그인이 없어서 판단이 기기마다 따로 남습니다.</li>
+        <li>AI 판정은 키가 설정된 배포 환경에서만 동작합니다.</li>
+        <li>데이터는 실행 결과를 내보낸 정적 파일이라 새 실행을 반영하려면 다시 내보내야 합니다.</li>
+      </ul>
+      <p class="muted" id="about-meta"></p>
+    </div>
+  </section>
+</main>
+<footer class="foot">Intro Funnel · 병목 지도 뷰어 초안 · 데이터는 공개 초록과 레지스트리 서지만 사용</footer>
+<script src="app.js"></script>
+</body>
+</html>

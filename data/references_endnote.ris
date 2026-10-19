@@ -1,0 +1,627 @@
+﻿TY  - JOUR
+AU  - Choi, Changsoon
+AU  - Lee, Youngsik
+AU  - Cho, Kyoung Won
+AU  - Koo, Ja Hoon
+AU  - Kim, Dae-Hyeong
+PY  - 2019
+TI  - Wearable and Implantable Soft Bioelectronics Using Two-Dimensional Materials
+T2  - Accounts of Chemical Research
+J2  - Acc. Chem. Res.
+VL  - 52
+IS  - 1
+SP  - 73
+EP  - 81
+SN  - 0001-4842
+DO  - 10.1021/acs.accounts.8b00491
+UR  - https://doi.org/10.1021/acs.accounts.8b00491
+LB  - L01.01
+CN  - L01.01
+KW  - IF:L01 Bioelectronics
+KW  - IntroFunnel
+C1  - L01 Bioelectronics
+N1  - IntroFunnel L01.01 (review) | cited for: L01: Soft bioelectronics for wearable and implantable biomedical devices have attracted great attention because their soft mechanical properties match human organs and tissues.
+RN  - Evidence: "because of their extremely soft mechanical properties that match with a variety of human organs and tissues"
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Sihong
+AU  - Oh, Jin Young
+AU  - Xu, Jie
+AU  - Tran, Helen
+AU  - Bao, Zhenan
+PY  - 2018
+TI  - Skin-Inspired Electronics: An Emerging Paradigm
+T2  - Accounts of Chemical Research
+J2  - Acc. Chem. Res.
+VL  - 51
+IS  - 5
+SP  - 1033
+EP  - 1045
+SN  - 0001-4842
+DO  - 10.1021/acs.accounts.8b00015
+UR  - https://doi.org/10.1021/acs.accounts.8b00015
+LB  - L01.02
+CN  - L01.02
+KW  - IF:L01 Bioelectronics
+KW  - IntroFunnel
+C1  - L01 Bioelectronics
+N1  - IntroFunnel L01.02 (review) | cited for: L01: Future electronics need more intimate contact with the human body to enable advanced health monitoring, disease detection and medical therapies. || L02: Current electronics are rigid whereas the human body is soft, dynamic and stretchable, so electronic materials with skin-like stretchability are needed.
+RN  - Evidence: "They need to allow more intimate contact with human beings to enable advanced health monitoring, disease detection, medical therapies, and human-machine interfacing." | also used at L02
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Yuhao
+AU  - Pharr, Matt
+AU  - Salvatore, Giovanni Antonio
+PY  - 2017
+TI  - Lab-on-Skin: A Review of Flexible and Stretchable Electronics for Wearable Health Monitoring
+T2  - ACS Nano
+J2  - ACS Nano
+VL  - 11
+IS  - 10
+SP  - 9614
+EP  - 9635
+SN  - 1936-0851
+DO  - 10.1021/acsnano.7b04898
+UR  - https://doi.org/10.1021/acsnano.7b04898
+LB  - L02.01
+CN  - L02.01
+KW  - IF:L02 Soft, stretchable bioelectronics
+KW  - IntroFunnel
+C1  - L02 Soft, stretchable bioelectronics
+N1  - IntroFunnel L02.01 (review) | cited for: L02: Soft, flexible and stretchable electronic devices provide a platform to interface with soft tissues for continuous health monitoring.
+RN  - Evidence: "provide a novel platform to interface with soft tissues for robotic feedback and control, regenerative medicine, and continuous health monitoring."
+ER  - 
+
+TY  - JOUR
+AU  - Pan, Taisong
+AU  - Pharr, Matt
+AU  - Ma, Yinji
+AU  - Ning, Rui
+AU  - Yan, Zheng
+AU  - Xu, Renxiao
+AU  - Feng, Xue
+AU  - Huang, Yonggang
+AU  - Rogers, John A.
+PY  - 2017
+TI  - Experimental and Theoretical Studies of Serpentine Interconnects on Ultrathin Elastomers for Stretchable Electronics
+T2  - Advanced Functional Materials
+J2  - Adv Funct Materials
+VL  - 27
+IS  - 37
+SP  - 1702589
+C7  - 1702589
+SN  - 1616-301X
+DO  - 10.1002/adfm.201702589
+UR  - https://doi.org/10.1002/adfm.201702589
+LB  - L03.01
+CN  - L03.01
+KW  - IF:L03 Interconnects
+KW  - IntroFunnel
+C1  - L03 Interconnects
+N1  - IntroFunnel L03.01 (support) | cited for: L03: Integrating deformable interconnects with inorganic functional materials establishes a path to high-performance stretchable electronics.
+RN  - Evidence: "Integrating deformable interconnects with inorganic functional materials establishes a path to high‐performance stretchable electronics."
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Yihui
+AU  - Wang, Shuodao
+AU  - Li, Xuetong
+AU  - Fan, Jonathan A.
+AU  - Xu, Sheng
+AU  - Song, Young Min
+AU  - Choi, Ki‐Joong
+AU  - Yeo, Woon‐Hong
+AU  - Lee, Woosik
+AU  - Nazaar, Sharaf Nafees
+AU  - Lu, Bingwei
+AU  - Yin, Lan
+AU  - Hwang, Keh‐Chih
+AU  - Rogers, John A.
+AU  - Huang, Yonggang
+PY  - 2014
+TI  - Experimental and Theoretical Studies of Serpentine Microstructures Bonded To Prestrained Elastomers for Stretchable Electronics
+T2  - Advanced Functional Materials
+J2  - Adv Funct Materials
+VL  - 24
+IS  - 14
+SP  - 2028
+EP  - 2037
+SN  - 1616-301X
+DO  - 10.1002/adfm.201302957
+UR  - https://doi.org/10.1002/adfm.201302957
+LB  - L03.02
+CN  - L03.02
+KW  - IF:L03 Interconnects
+KW  - IntroFunnel
+C1  - L03 Interconnects
+N1  - IntroFunnel L03.02 (support) | cited for: L03: Several schemes for stretchable inorganic electronics exploit deformable interconnects. || L04: When interconnects are fully bonded to the substrate or encapsulated in a solid material, useful but modest levels of deformation below 30-40% are possible.
+RN  - Evidence: "Several mechanics and materials schemes have been devised for this type of technology, many of which exploit deformable interconnects." | also used at L04
+ER  - 
+
+TY  - JOUR
+AU  - Won, Phillip
+AU  - Park, Jung Jae
+AU  - Lee, Taemin
+AU  - Ha, Inho
+AU  - Han, Seonggeun
+AU  - Choi, Mansoo
+AU  - Lee, Jinhwan
+AU  - Hong, Sukjoon
+AU  - Cho, Kyu-Jin
+AU  - Ko, Seung Hwan
+PY  - 2019
+TI  - Stretchable and Transparent Kirigami Conductor of Nanowire Percolation Network for Electronic Skin Applications
+T2  - Nano Letters
+VL  - 19
+IS  - 9
+SP  - 6087
+EP  - 6096
+SN  - 1530-6984
+DO  - 10.1021/acs.nanolett.9b02014
+UR  - https://doi.org/10.1021/acs.nanolett.9b02014
+LB  - L04.01
+CN  - L04.01
+KW  - IF:L04 Limits of rigid metal interconnects
+KW  - IntroFunnel
+C1  - L04 Limits of rigid metal interconnects
+N1  - IntroFunnel L04.01 (limitation) | cited for: L04: Serpentine designs, ultrathin films and nanomaterials each face their own limitation for electronic-skin applications.
+RN  - Evidence: "However, these strategies addressed thus far each face own limitation for achieving desired form of electronic-skin applications."
+ER  - 
+
+TY  - JOUR
+AU  - Choi, Suji
+AU  - Han, Sang Ihn
+AU  - Kim, Dokyoon
+AU  - Hyeon, Taeghwan
+AU  - Kim, Dae-Hyeong
+PY  - 2019
+TI  - High-performance stretchable conductive nanocomposites: materials, processes, and device applications
+T2  - Chemical Society Reviews
+J2  - Chem. Soc. Rev.
+VL  - 48
+IS  - 6
+SP  - 1566
+EP  - 1595
+SN  - 0306-0012
+DO  - 10.1039/c8cs00706c
+UR  - https://doi.org/10.1039/c8cs00706c
+LB  - L05.01
+CN  - L05.01
+KW  - IF:L05 Intrinsically stretchable conductors
+KW  - IntroFunnel
+C1  - L05 Intrinsically stretchable conductors
+N1  - IntroFunnel L05.01 (review) | cited for: L05: Conducting nanomaterials have been integrated with elastomers to produce stretchable conductive nanocomposites.
+RN  - Evidence: "Many kinds of conducting nanomaterials with outstanding electrical and mechanical properties have been integrated with elastomers to produce stretchable conductive nanocomposites."
+ER  - 
+
+TY  - JOUR
+AU  - Kayser, Laure V.
+AU  - Lipomi, Darren J.
+PY  - 2019
+TI  - Stretchable Conductive Polymers and Composites Based on PEDOT and PEDOT:PSS
+T2  - Advanced Materials
+J2  - Advanced Materials
+VL  - 31
+IS  - 10
+SP  - 1806133
+C7  - 1806133
+SN  - 0935-9648
+DO  - 10.1002/adma.201806133
+UR  - https://doi.org/10.1002/adma.201806133
+LB  - L05.02
+CN  - L05.02
+KW  - IF:L05 Intrinsically stretchable conductors
+KW  - IntroFunnel
+C1  - L05 Intrinsically stretchable conductors
+N1  - IntroFunnel L05.02 (review) | cited for: L05: Much recent work on the conductive polymer PEDOT:PSS has been devoted to increasing its deformability from flexibility toward stretchability.
+RN  - Evidence: "increasing its deformability beyond flexibility—a characteristic possessed by any material that is sufficiently thin—toward stretchability"
+ER  - 
+
+TY  - JOUR
+AU  - Jin, Hanbit
+AU  - Nayeem, Md Osman Goni
+AU  - Lee, Sunghoon
+AU  - Matsuhisa, Naoji
+AU  - Inoue, Daishi
+AU  - Yokota, Tomoyuki
+AU  - Hashizume, Daisuke
+AU  - Someya, Takao
+PY  - 2019
+TI  - Highly Durable Nanofiber-Reinforced Elastic Conductors for Skin-Tight Electronic Textiles
+T2  - ACS Nano
+VL  - 13
+IS  - 7
+SP  - 7905
+EP  - 7912
+SN  - 1936-0851
+DO  - 10.1021/acsnano.9b02297
+UR  - https://doi.org/10.1021/acsnano.9b02297
+LB  - L06.01
+CN  - L06.01
+KW  - IF:L06 Conductivity-stretchability trade-off
+KW  - IntroFunnel
+C1  - L06 Conductivity-stretchability trade-off
+N1  - IntroFunnel L06.01 (limitation) | cited for: L06: The practical application of metal-elastomer nanocomposites is still limited by their inferior cyclic stability and long-term durability.
+RN  - Evidence: "However, their practical application is still limited by their inferior cyclic stability and long-term durability."
+ER  - 
+
+TY  - JOUR
+AU  - Mou, Lei
+AU  - Qi, Jie
+AU  - Tang, Lixue
+AU  - Dong, Ruihua
+AU  - Xia, Yong
+AU  - Gao, Yuan
+AU  - Jiang, Xingyu
+PY  - 2020
+TI  - Highly Stretchable and Biocompatible Liquid Metal‐Elastomer Conductors for Self‐Healing Electronics
+T2  - Small
+J2  - Small
+VL  - 16
+IS  - 51
+SP  - 2005336
+C7  - 2005336
+SN  - 1613-6810
+DO  - 10.1002/smll.202005336
+UR  - https://doi.org/10.1002/smll.202005336
+LB  - L06.02
+CN  - L06.02
+KW  - IF:L06 Conductivity-stretchability trade-off
+KW  - IntroFunnel
+C1  - L06 Conductivity-stretchability trade-off
+N1  - IntroFunnel L06.02 (limitation) | cited for: L06: It remains a problem to obtain highly stretchable and conductive materials at low cost on a large scale.
+RN  - Evidence: "However, it remains a problem to get highly stretchable, conductive materials with low cost on a large scale."
+ER  - 
+
+TY  - JOUR
+AU  - Dickey, Michael D.
+PY  - 2017
+TI  - Stretchable and Soft Electronics using Liquid Metals
+T2  - Advanced Materials
+J2  - Advanced Materials
+VL  - 29
+IS  - 27
+SP  - 1606425
+C7  - 1606425
+SN  - 0935-9648
+DO  - 10.1002/adma.201606425
+UR  - https://doi.org/10.1002/adma.201606425
+LB  - L07.01
+CN  - L07.01
+KW  - IF:L07 Liquid metal
+KW  - IntroFunnel
+C1  - L07 Liquid metal
+N1  - IntroFunnel L07.01 (review) | cited for: L07: Gallium-based liquid metals are, in principle, infinitely deformable while retaining metallic conductivity.
+RN  - Evidence: "Liquid metals are compelling materials for these applications because, in principle, they are infinitely deformable while retaining metallic conductivity."
+ER  - 
+
+TY  - JOUR
+AU  - Tang, Shi-Yang
+AU  - Qiao, Ruirui
+PY  - 2021
+TI  - Liquid Metal Particles and Polymers: A Soft–Soft System with Exciting Properties
+T2  - Accounts of Materials Research
+J2  - Acc. Mater. Res.
+VL  - 2
+IS  - 10
+SP  - 966
+EP  - 978
+SN  - 2643-6728
+DO  - 10.1021/accountsmr.1c00179
+UR  - https://doi.org/10.1021/accountsmr.1c00179
+LB  - L07.02
+CN  - L07.02
+KW  - IF:L07 Liquid metal
+KW  - IntroFunnel
+C1  - L07 Liquid metal
+N1  - IntroFunnel L07.02 (review) | cited for: L07: As a fluid, liquid metals provide the best union of stretchability, deformability and electrical conductivity among soft materials.
+RN  - Evidence: "As a fluid, liquid metals provide the best union of stretchability, deformability, and electrical conductivity among all soft materials."
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Shanliangzi
+AU  - Yuen, Michelle C.
+AU  - White, Edward L.
+AU  - Boley, J. William
+AU  - Deng, Biwei
+AU  - Cheng, Gary J.
+AU  - Kramer-Bottiglio, Rebecca
+PY  - 2018
+TI  - Laser Sintering of Liquid Metal Nanoparticles for Scalable Manufacturing of Soft and Flexible Electronics
+T2  - ACS Applied Materials & Interfaces
+J2  - ACS Appl. Mater. Interfaces
+VL  - 10
+IS  - 33
+SP  - 28232
+EP  - 28241
+SN  - 1944-8244
+DO  - 10.1021/acsami.8b08722
+UR  - https://doi.org/10.1021/acsami.8b08722
+LB  - L08.01
+CN  - L08.01
+KW  - IF:L08 Limits of bulk liquid metal
+KW  - IntroFunnel
+C1  - L08 Limits of bulk liquid metal
+N1  - IntroFunnel L08.01 (limitation) | cited for: L08: Surface oxidation gives liquid metal behaviours that are often incompatible with scalable manufacturing techniques.
+RN  - Evidence: "surface oxidation of liquid metal gives it unique behaviors that are often incompatible with scalable manufacturing techniques."
+ER  - 
+
+TY  - JOUR
+AU  - Doudrick, Kyle
+AU  - Liu, Shanliangzi
+AU  - Mutunga, Eva M.
+AU  - Klein, Kate L.
+AU  - Damle, Viraj
+AU  - Varanasi, Kripa K.
+AU  - Rykaczewski, Konrad
+PY  - 2014
+TI  - Different Shades of Oxide: From Nanoscale Wetting Mechanisms to Contact Printing of Gallium-Based Liquid Metals
+T2  - Langmuir
+J2  - Langmuir
+VL  - 30
+IS  - 23
+SP  - 6867
+EP  - 6877
+SN  - 0743-7463
+DO  - 10.1021/la5012023
+UR  - https://doi.org/10.1021/la5012023
+LB  - L08.02
+CN  - L08.02
+KW  - IF:L08 Limits of bulk liquid metal
+KW  - IntroFunnel
+C1  - L08 Limits of bulk liquid metal
+N1  - IntroFunnel L08.02 (limitation) | cited for: L08: Nano- to microscale device fabrication with gallium-based liquid metals is challenging because they strongly adhere to most substrates despite a surface tension ten times that of water.
+RN  - Evidence: "despite having surface tension 10 times higher than water, they strongly adhere to a majority of substrates."
+ER  - 
+
+TY  - JOUR
+AU  - Li, Yanyan
+AU  - Feng, Shuxuan
+AU  - Cao, Shitai
+AU  - Zhang, Jiaxue
+AU  - Kong, Desheng
+PY  - 2020
+TI  - Printable Liquid Metal Microparticle Ink for Ultrastretchable Electronics
+T2  - ACS Applied Materials & Interfaces
+J2  - ACS Appl. Mater. Interfaces
+VL  - 12
+IS  - 45
+SP  - 50852
+EP  - 50859
+SN  - 1944-8244
+DO  - 10.1021/acsami.0c15084
+UR  - https://doi.org/10.1021/acsami.0c15084
+LB  - L09.01
+CN  - L09.01
+KW  - IF:L09 Liquid metal particles
+KW  - IntroFunnel
+C1  - L09 Liquid metal particles
+N1  - IntroFunnel L09.01 (support) | cited for: L09: To enable facile and scalable patterning, bulk liquid metal is typically dispersed into fine particles to formulate printable inks. || L12: The native oxide or the organic ligands that stabilize liquid metal particles inhibit their direct coalescence, so metallic conductivity is not recovered.
+RN  - Evidence: "To enable facile and scalable patterning of conductive features, bulk liquid metal is typically dispersed into fine particles to formulate printable inks." | also used at L12
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Sanhu
+AU  - Xu, Zhiwu
+AU  - Li, Guoqiang
+AU  - Li, Zhengwei
+AU  - Ye, Zihan
+AU  - Xu, Zirong
+AU  - Chen, Wenjun
+AU  - Jin, Dongdong
+AU  - Ma, Xing
+PY  - 2023
+TI  - Ultrasonic‐Enabled Nondestructive and Substrate‐Independent Liquid Metal Ink Sintering
+T2  - Advanced Science
+J2  - Advanced Science
+VL  - 10
+IS  - 23
+SP  - 2301292
+C7  - 2301292
+SN  - 2198-3844
+DO  - 10.1002/advs.202301292
+UR  - https://doi.org/10.1002/advs.202301292
+LB  - L09.02
+CN  - L09.02
+KW  - IF:L09 Liquid metal particles
+KW  - IntroFunnel
+C1  - L09 Liquid metal particles
+N1  - IntroFunnel L09.02 (support) | cited for: L09: Printing particle-based liquid metal ink is a good strategy to overcome the poor wettability of liquid metal when preparing circuits. || L12: Widely used mechanical sintering by hard contact can leave areas insufficiently sintered and may break delicate printed patterns.
+RN  - Evidence: "Printing or patterning particle‐based liquid metal (LM) ink is a good strategy to overcome poor wettability of LM for its circuits’ preparation in flexible and printed electronics." | also used at L12
+ER  - 
+
+TY  - JOUR
+AU  - Lin, Yiliang
+AU  - Cooper, Christopher
+AU  - Wang, Meng
+AU  - Adams, Jacob J.
+AU  - Genzer, Jan
+AU  - Dickey, Michael D.
+PY  - 2015
+TI  - Handwritten, Soft Circuit Boards and Antennas Using Liquid Metal Nanoparticles
+T2  - Small
+J2  - Small
+VL  - 11
+IS  - 48
+SP  - 6397
+EP  - 6403
+SN  - 1613-6810
+DO  - 10.1002/smll.201502692
+UR  - https://doi.org/10.1002/smll.201502692
+LB  - L10.01
+CN  - L10.01
+KW  - IF:L10 Activation and adhesion problem
+KW  - IntroFunnel
+C1  - L10 Activation and adhesion problem
+N1  - IntroFunnel L10.01 (seminal) | cited for: L10: Liquid metal nanoparticles embedded between two elastomeric sheets initially form an electrically insulating composite and can be sintered into conductive traces by localized mechanical pressure.
+RN  - Evidence: "Soft circuit boards can be handwritten by a stylus, which sinters the particles into conductive traces by applying localized mechanical pressure to the elastomeric sheets."
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Shanliangzi
+AU  - Reed, Serrae N.
+AU  - Higgins, Matthew J.
+AU  - Titus, Michael S.
+AU  - Kramer-Bottiglio, Rebecca
+PY  - 2019
+TI  - Oxide rupture-induced conductivity in liquid metal nanoparticles by laser and thermal sintering
+T2  - Nanoscale
+J2  - Nanoscale
+VL  - 11
+IS  - 38
+SP  - 17615
+EP  - 17629
+SN  - 2040-3364
+DO  - 10.1039/c9nr03903a
+UR  - https://doi.org/10.1039/c9nr03903a
+LB  - L10.02
+CN  - L10.02
+KW  - IF:L10 Activation and adhesion problem
+KW  - IntroFunnel
+C1  - L10 Activation and adhesion problem
+N1  - IntroFunnel L10.02 (limitation) | cited for: L10: As-printed liquid metal nanoparticle films are non-conductive because of the surrounding gallium oxide shells, so they require a sintering process to recover conductivity.
+RN  - Evidence: "as-printed liquid metal nanoparticle films are non-conductive due to the surrounding metal oxide shells which are primarily Ga2O3, a wide-bandgap semiconductor."
+ER  - 
+
+TY  - JOUR
+AU  - Lee, Simok
+AU  - Jaseem, Syed Ahmed
+AU  - Atar, Nurit
+AU  - Wang, Meixiang
+AU  - Kim, Jeong Yong
+AU  - Zare, Mohammadreza
+AU  - Kim, Sooyoung
+AU  - Bartlett, Michael D.
+AU  - Jeong, Jae-Woong
+AU  - Dickey, Michael D.
+PY  - 2025
+TI  - Connecting the Dots: Sintering of Liquid Metal Particles for Soft and Stretchable Conductors
+T2  - Chemical Reviews
+J2  - Chem. Rev.
+VL  - 125
+IS  - 6
+SP  - 3551
+EP  - 3585
+SN  - 0009-2665
+DO  - 10.1021/acs.chemrev.4c00850
+UR  - https://doi.org/10.1021/acs.chemrev.4c00850
+LB  - L10.03
+CN  - L10.03
+KW  - IF:L10 Activation and adhesion problem
+KW  - IntroFunnel
+C1  - L10 Activation and adhesion problem
+N1  - IntroFunnel L10.03 (review) | cited for: L10: Films and traces of liquid metal particles are typically not conductive as fabricated because of the native oxide that forms on the particle surface.
+RN  - Evidence: "films and traces of LMPs are not typically conductive as fabricated due to the native oxide that forms on the surface of the particles."
+ER  - 
+
+TY  - JOUR
+AU  - Farrell, Zachary J.
+AU  - Tabor, Christopher
+PY  - 2018
+TI  - Control of Gallium Oxide Growth on Liquid Metal Eutectic Gallium/Indium Nanoparticles via Thiolation
+T2  - Langmuir
+J2  - Langmuir
+VL  - 34
+IS  - 1
+SP  - 234
+EP  - 240
+SN  - 0743-7463
+DO  - 10.1021/acs.langmuir.7b03384
+UR  - https://doi.org/10.1021/acs.langmuir.7b03384
+LB  - L11.01
+CN  - L11.01
+KW  - IF:L11 Surface modification of particles
+KW  - IntroFunnel
+C1  - L11 Surface modification of particles
+N1  - IntroFunnel L11.01 (support) | cited for: L11: Functionalization of EGaIn nanoparticles with thiolated molecules has been studied as a way to control the growth of the oxide skin.
+RN  - Evidence: "It is hypothesized here that functionalization of EGaIn nanoparticles with thiolated molecules could moderate oxide growth based on insights from the Cabrera-Mott oxidation model."
+ER  - 
+
+TY  - JOUR
+AU  - Rahim, Md. Arifur
+AU  - Centurion, Franco
+AU  - Han, Jialuo
+AU  - Abbasi, Roozbeh
+AU  - Mayyas, Mohannad
+AU  - Sun, Jing
+AU  - Christoe, Michael J.
+AU  - Esrafilzadeh, Dorna
+AU  - Allioux, Francois‐Marie
+AU  - Ghasemian, Mohammad B.
+AU  - Yang, Jiong
+AU  - Tang, Jianbo
+AU  - Daeneke, Torben
+AU  - Mettu, Srinivas
+AU  - Zhang, Jin
+AU  - Uddin, Md Hemayet
+AU  - Jalili, Rouhollah
+AU  - Kalantar‐Zadeh, Kourosh
+PY  - 2021
+TI  - Polyphenol‐Induced Adhesive Liquid Metal Inks for Substrate‐Independent Direct Pen Writing
+T2  - Advanced Functional Materials
+J2  - Adv Funct Materials
+VL  - 31
+IS  - 10
+SP  - 2007336
+C7  - 2007336
+SN  - 1616-301X
+DO  - 10.1002/adfm.202007336
+UR  - https://doi.org/10.1002/adfm.202007336
+LB  - L11.02
+CN  - L11.02
+KW  - IF:L11 Surface modification of particles
+KW  - IntroFunnel
+C1  - L11 Surface modification of particles
+N1  - IntroFunnel L11.02 (closest) | cited for: L11: Liquid metal inks stabilized by the polyphenol tannic acid can be applied to a variety of substrates owing to its intrinsic adhesive properties. || L13: Current liquid metal patterning methods are substrate specific and largely suffer from undesired imperfections.
+RN  - Evidence: "The intrinsic adhesive properties of tannic acid containing multiple catechol/gallol groups, allow the inks to be applied to a variety of substrates" | also used at L13
+ER  - 
+
+TY  - JOUR
+AU  - Bark, Hyunwoo
+AU  - Lee, Pooi See
+PY  - 2021
+TI  - Surface modification of liquid metal as an effective approach for deformable electronics and energy devices
+T2  - Chemical Science
+J2  - Chem. Sci.
+VL  - 12
+IS  - 8
+SP  - 2760
+EP  - 2777
+SN  - 2041-6520
+DO  - 10.1039/d0sc05310d
+UR  - https://doi.org/10.1039/d0sc05310d
+LB  - L11.03
+CN  - L11.03
+KW  - IF:L11 Surface modification of particles
+KW  - IntroFunnel
+C1  - L11 Surface modification of particles
+N1  - IntroFunnel L11.03 (review) | cited for: L11: Surface modification of liquid metal is an effective approach for deformable electronics.
+RN  - Evidence: "surface modification is crucial for the success of incorporating liquid metal into functional devices."
+ER  - 
+
+TY  - JOUR
+AU  - Singh, Mukesh
+AU  - Bhuyan, Priyanuj
+AU  - Jeong, Sunho
+AU  - Park, Sungjune
+PY  - 2025
+TI  - Directly Printable, Non‐Smearable and Stretchable Conductive Ink Enabled by Liquid Metal Microparticles Interstitially Engineered in Highly Entangled Elastomeric Matrix
+T2  - Advanced Functional Materials
+J2  - Adv Funct Materials
+VL  - 35
+IS  - 2
+SP  - 2412178
+C7  - 2412178
+SN  - 1616-301X
+DO  - 10.1002/adfm.202412178
+UR  - https://doi.org/10.1002/adfm.202412178
+LB  - L12.01
+CN  - L12.01
+KW  - IF:L12 Limits of current surface modifications
+KW  - IntroFunnel
+C1  - L12 Limits of current surface modifications
+N1  - IntroFunnel L12.01 (limitation) | cited for: L12: Conductive inks based on liquid metal microparticles are constrained by the need for encapsulation, the need for sintering to induce conductivity, and smearing.
+RN  - Evidence: "are constrained by a few drawbacks such as need for encapsulation, need for sintering to induce conductivity, and smearing."
+ER  - 

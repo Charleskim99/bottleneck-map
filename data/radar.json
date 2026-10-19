@@ -1,0 +1,281 @@
+{
+ "generated": "2026-10-19",
+ "run": "20260926-0044",
+ "project": "field-radar",
+ "approved": 13,
+ "total": 16,
+ "axes": [
+  {
+   "id": "L01",
+   "label": "웨어러블 전기화학 바이오센서",
+   "claim": "땀이나 조직액에서 대사물질을 연속 측정하는 웨어러블 전기화학 센서의 최근 보고를 모은다.",
+   "query": "wearable electrochemical biosensor sweat",
+   "items": [
+    {
+     "bid": "L01.01",
+     "state": "EXCLUDED",
+     "reason": "venue rule (publisher MDPI AG)",
+     "claim": "Enzyme-loaded polymeric matrices combined with carbon nanomaterials and metallic nanoparticles in a wearable multisensing patch enable simultaneous monitoring of glucose, lactate and H2O2.",
+     "quote": "enables real-time, highly sensitive, and simultaneous monitoring of key clinical biomarkers (e.g., glucose, lactate, and H2O2) in clinical and point-of-care applications",
+     "doi": "10.3390/polym18172150",
+     "first_author": "Zamfir",
+     "year": 2026,
+     "venue": "Polymers",
+     "title": "A Flexible Wearable Multisensing Patch Integrating SWCNT-PtNPs Nanocomposites for Non-Invasive Clinical Biomarkers Monitoring in Sweat",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L01.02",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "Enzyme-based electrochemical biosensors have significantly improved diabetes management, but their widespread clinical application remains limited by enzyme instability.",
+     "quote": "Conventional glucose monitoring technologies, particularly enzyme-based electrochemical biosensors, have significantly improved diabetes management; however, their widespread clinical application remains limited by enzyme instability",
+     "doi": "10.1007/s44397-026-00080-y",
+     "first_author": "Das",
+     "year": 2026,
+     "venue": "Discov. Sens.",
+     "title": "Next-generation nanobiosensors enable dynamic, real-time glucose monitoring for precision diabetes therapy",
+     "cited_by": 1,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L01.03",
+     "state": "EXCLUDED",
+     "reason": "venue rule (publisher MDPI AG)",
+     "claim": "Hydrogels give wearable biosensors tissue-like softness, adhesion and biocompatibility, while nanomaterials such as graphene, carbon nanotubes and MXenes enhance conductivity and signal amplification.",
+     "quote": "Hydrogels provide tissue-like softness, hydration, adhesion, permeability, and biocompatibility, whereas nanomaterials such as graphene, carbon nanotubes, MXenes, metallic nanoparticles, and conductive polymers enhance conductivity",
+     "doi": "10.3390/jsan15050074",
+     "first_author": "Choi",
+     "year": 2026,
+     "venue": "J. Sens. Actuator Netw.",
+     "title": "Hydrogel-and-Nanomaterial-Integrated Wearable Biosensors for Real-Time Biomedical Monitoring: Materials, Devices, and IoT-Connected Systems",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "label": "신축성 전도체와 액체금속",
+   "claim": "신축성 배선과 액체금속 기반 전도체의 최근 보고를 모은다.",
+   "query": "\"liquid metal\" stretchable conductor",
+   "items": [
+    {
+     "bid": "L02.01",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "A poor solvent-induced interfacial self-assembly strategy produced elastic conductors with a liquid metal polymer interpenetrating conductive domain, reaching a conductivity of 3.33 x 10^6 siemens per meter and stretchability beyond 1400% strain.",
+     "quote": "the conductors achieve exceptional conductivity (3.33 × 10 6 siemens per meter), extreme stretchability (>1400% strain)",
+     "doi": "10.1126/sciadv.aee8109",
+     "first_author": "Zheng",
+     "year": 2026,
+     "venue": "Sci. Adv.",
+     "title": "Highly conductive and ultrarobust elastic conductors for stretchable electronics",
+     "cited_by": 5,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L02.02",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "Controlling the interparticle liquid bridge force and the critical rupture strength of liquid metal particle shells drives spontaneous fusion, giving stretchable conductive films on complex micro-structured surfaces.",
+     "quote": "By precisely controlling the interparticle liquid bridge force and the critical rupture strength of liquid metal (LM) particle shells, the spontaneous fusion of LM particles is realized",
+     "doi": "10.1038/s41467-026-75298-w",
+     "first_author": "Zhou",
+     "year": 2026,
+     "venue": "Nat Commun",
+     "title": "High-performance stretchable conductive film on complex microscale structures via spontaneous fusion of liquid metal",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L02.03",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "The practical use of liquid metal based stretchable conductors is limited by high material costs and susceptibility to leakage, which a multilayer architecture that decouples mechanical strain from electrical conduction addresses.",
+     "quote": "Liquid-metal (LM)-based stretchable conductors are promising for soft electronics, yet their practical use is limited by high material costs and susceptibility to leakage.",
+     "doi": "10.1021/acs.nanolett.6c02336",
+     "first_author": "Guan",
+     "year": 2026,
+     "venue": "Nano Letters",
+     "title": "Ultralow-Loading Multilayer Liquid Metal Conductors with Leakage Immunity and Uncompromised Electro-Mechanical Performance",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "label": "EIS 기반 센싱과 센서 진단",
+   "claim": "임피던스 분광법으로 생체 신호를 측정하거나 센서 상태를 진단한 최근 보고를 모은다.",
+   "query": "impedance spectroscopy biosensor",
+   "items": [
+    {
+     "bid": "L03.01",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "In impedimetric aptamer biosensors, electrochemical impedance spectroscopy is analysed through charge transfer resistance, double-layer capacitance and diffusion-limited processes modelled with equivalent circuits, and microfluidic integration is presented as a way to enhance analyte transport.",
+     "quote": "charge transfer resistance, double-layer capacitance, and diffusion-limited processes modeled through equivalent circuits",
+     "doi": "10.1016/j.biosx.2026.100841",
+     "first_author": "Monge-Castillo",
+     "year": 2026,
+     "venue": "Biosensors and Bioelectronics: X",
+     "title": "Physical fundamentals of aptamer-based impedimetric biosensors with integrated microfluidics",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L03.02",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "A portable electrochemical impedance spectroscopy platform with ZnO-modified gold electrodes detected interleukin-6 and E-selectin label-free directly in human plasma.",
+     "quote": "we present a portable electrochemical impedance spectroscopy (EIS) biosensing platform for the label-free detection of interleukin-6 (IL-6) and E-selectin directly in human plasma",
+     "doi": "10.1016/j.bios.2026.119230",
+     "first_author": "David",
+     "year": 2027,
+     "venue": "Biosensors and Bioelectronics",
+     "title": "Linking cytokine signaling to vascular response: Impedance biosensing of E-selectin and IL-6 for endothelial activation assessment",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L03.03",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "A single-use tetrapolar electrochemical impedance spectroscopy biosensor based on a gold microband electrode functionalised with a self-assembled monolayer, protein G and antibodies quantified meropenem in spiked human serum.",
+     "quote": "The sensor is based on a gold microband electrode functionalised with a self-assembled monolayer, protein G and anti-meropenem antibodies to enable selective antigen capture and impedance-based quantification.",
+     "doi": "10.1016/j.bios.2026.119218",
+     "first_author": "Bayford",
+     "year": 2027,
+     "venue": "Biosensors and Bioelectronics",
+     "title": "Therapeutic drug monitoring of meropenem in human serum using a sensitive four-electrode electrochemical biosensor for critically ill patients in intensive care wards",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "label": "웨어러블 미세유체 시료 채취",
+   "claim": "웨어러블 센서에 시료를 공급하는 미세유체 구조의 최근 보고를 모은다.",
+   "query": "microfluidic sweat sampling wearable",
+   "items": [
+    {
+     "bid": "L04.01",
+     "state": "EXCLUDED",
+     "reason": "venue rule (publisher MDPI AG)",
+     "claim": "For wearable ion-selective electrode platforms, performance in standard solutions does not guarantee reliable on-body data, because distortion can arise before sweat contacts the electrode, at the electrochemical interface, and during signal acquisition and interpretation.",
+     "quote": "performance in standard solutions does not guarantee reliable on-body data. During exercise, measurement distortion can arise before sweat contacts the electrode, at the electrochemical interface",
+     "doi": "10.3390/bios16090523",
+     "first_author": "Qi",
+     "year": 2026,
+     "venue": "Biosensors",
+     "title": "Preserving Sample, Interface, and Signal Fidelity in Wearable Sweat Electrolyte Monitoring During Exercise",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L04.02",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "A wearable surface-enhanced Raman scattering device combined chronometric microfluidics using capillary burst valves with interpretable machine learning to decode sweat biochemistry for fatigue assessment.",
+     "quote": "we develop a fully integrated wearable surface-enhanced Raman scattering device that synergizes chronometric microfluidics with interpretable machine learning to decode sweat biochemistry for a precise fatigue assessment",
+     "doi": "10.1021/jacs.6c14649",
+     "first_author": "Cao",
+     "year": 2026,
+     "venue": "Journal of the American Chemical Society",
+     "title": "Flexible Microfluidic Surface-Enhanced Raman Scattering Devices Integrated with Interpretable Machine Learning for Metabolic Fatigue Monitoring",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L04.03",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "For a sweat sensor, strong affinity between the recognition probe and the target and reversible binding are often mutually contradictory requirements.",
+     "quote": "these two properties are often mutually contradictory since strong affinity usually gives rise to slow or irreversible dissociation",
+     "doi": "10.1021/acs.analchem.6c03183",
+     "first_author": "Luan",
+     "year": 2026,
+     "venue": "Analytical Chemistry",
+     "title": "Wearable Microfluidic Chip Integrated with Chrono-Sampling for Cortisol Detection in Sweat",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "label": "생체 접촉 계면 코팅",
+   "claim": "센서 표면의 부착 방지와 안정성을 다룬 계면 코팅의 최근 보고를 모은다.",
+   "query": "antifouling coating biosensor",
+   "items": [
+    {
+     "bid": "L05.01",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "Nanomaterials improve biosensors primarily through engineered interfaces that govern target capture, signal transfer and operational stability, rather than through material identity alone.",
+     "quote": "Nanomaterials improve biosensors primarily through engineered interfaces that govern target capture, signal transfer, and operational stability, rather than through material identity alone.",
+     "doi": "10.1007/s43939-026-00784-3",
+     "first_author": "Sharma",
+     "year": 2026,
+     "venue": "Discov Mater",
+     "title": "Design rules of interface engineered nanomaterials for enhanced sensitivity stability and translational performance in bioanalytical biosensing",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L05.02",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "A polyethylene glycol and chitosan composite coating on an optical microfiber coupler provided antifouling properties and biocompatibility at the same time.",
+     "quote": "the multifunctional coating simultaneously provides antifouling properties, biocompatibility, and enzymatic specificity",
+     "doi": "10.1016/j.bios.2026.119160",
+     "first_author": "Zhu",
+     "year": 2026,
+     "venue": "Biosensors and Bioelectronics",
+     "title": "U-shaped Sagnac optical microfiber coupler biosensor for dual-matrix glucose detection",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "label": "바이오센서 신호의 기계학습",
+   "claim": "바이오센서 신호를 기계학습으로 보정하거나 분류한 최근 보고를 모은다.",
+   "query": "machine learning biosensor signal",
+   "items": [
+    {
+     "bid": "L06.01",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "Artificial intelligence is being applied to biosensing to overcome drawbacks of traditional biosensors such as noise interference, signal drift and the inability to process non-linear biological data.",
+     "quote": "overcoming significant drawbacks of traditional biosensors, including noise interference, signal drift, and inability to process non-linear biological data",
+     "doi": "10.1177/09287329261479178",
+     "first_author": "Rehman",
+     "year": 2026,
+     "venue": "Technology and Health Care",
+     "title": "AI-driven biosensing technology for early disease detection: A comprehensive review",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    },
+    {
+     "bid": "L06.02",
+     "state": "APPROVED",
+     "reason": null,
+     "claim": "A smart biosensing ecosystem integrates biorecognition elements, functional nanomaterials and electrochemical or optical transducers with data-driven methods, in response to the limitations of conventional single-analyte biosensing.",
+     "quote": "functional nanomaterials, and electrochemical or optical transducers are integrated with chemometric preprocessing, machine-learning-based interpretation, IoT connectivity, and cloud-enabled decision support",
+     "doi": "10.1016/j.nxmate.2026.103476",
+     "first_author": "Sharma",
+     "year": 2026,
+     "venue": "Next Materials",
+     "title": "Smart biosensing ecosystems: Integrating nanotechnology, chemometrics, and machine learning for precision analytical applications",
+     "cited_by": 0,
+     "grader": "claude-fresh:opus-5"
+    }
+   ]
+  }
+ ]
+}
