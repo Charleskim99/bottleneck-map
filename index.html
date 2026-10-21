@@ -19,6 +19,7 @@
   </div>
   <nav class="tabs" role="tablist">
     <button class="tab is-active" data-tab="map" role="tab">병목 지도</button>
+    <button class="tab" data-tab="search" role="tab">분야 검색</button>
     <button class="tab" data-tab="radar" role="tab">동향 요약</button>
     <button class="tab" data-tab="refs" role="tab">참고문헌</button>
     <button class="tab" data-tab="label" role="tab">문장 판정</button>
@@ -54,6 +55,28 @@
       <aside id="detail" class="detail" aria-live="polite">
         <p class="placeholder">왼쪽 표에서 주제를 누르면 근거 문장과 출처가 여기에 나옵니다.</p>
       </aside>
+    </div>
+  </section>
+
+  <!-- ======================================================== 분야 검색 (라이브) -->
+  <section id="tab-search" class="panel">
+    <div class="card">
+      <h2>내 분야를 넣으면 그 자리에서 최근 논문의 한계·해결 주장 문장을 뽑습니다</h2>
+      <p class="muted">병목 지도·동향 요약·참고문헌 탭은 <b>예시 한 분야</b>(액체금속 신축 전자)를 미리 돌려 둔 결과입니다.
+        다른 분야를 보려면 여기에 검색어를 넣으세요. 서버가 OpenAlex를 직접 호출합니다.</p>
+      <div class="row">
+        <input id="q-input" type="search" placeholder='예: "solid electrolyte" dendrite   ·   perovskite solar cell stability' aria-label="분야 검색어">
+        <select id="q-months" aria-label="최근 기간">
+          <option value="12">최근 12개월</option>
+          <option value="24" selected>최근 24개월</option>
+          <option value="36">최근 36개월</option>
+        </select>
+        <button class="btn primary" id="btn-search">검색</button>
+        <span id="q-status" class="muted"></span>
+      </div>
+      <p class="hint">검색어의 모든 단어는 AND로 묶입니다. 핵심어 2~4개로 적고 고정된 구는 따옴표로 묶으세요("liquid metal").</p>
+      <div class="warn" id="q-caveat" hidden></div>
+      <div id="q-result"></div>
     </div>
   </section>
 
@@ -100,6 +123,9 @@
   <section id="tab-about" class="panel">
     <div class="card">
       <h2>무엇을 보여 주는가</h2>
+      <p class="warn" style="display:block">이 사이트에 올라간 병목 지도·동향 요약·참고문헌은 <b>예시 한 분야</b>(액체금속 신축 전자)를 미리 돌려 둔 결과입니다.
+        다른 분야 자료가 들어 있지 않습니다. 자기 분야를 보려면 <b>분야 검색</b> 탭에서 검색어를 넣으면 그 자리에서 OpenAlex를 돌립니다.
+        다만 라이브 검색은 신호 단어로 고른 1차 결과이고, LLM 라벨·축자 인용 대조·주제 묶기·Crossref 확인은 예시 분야에만 적용돼 있습니다.</p>
       <p>이 화면은 Claude Code 스킬 <b>intro-funnel</b>이 만든 세 가지 결과를 읽기 위한 초안입니다. 병목 지도(초록에서 아직 한계로 적히는 문제와 해결했다고 주장하는 문제를 갈라 센 표), 분야 동향 요약(축별 최신 논문과 승인된 근거), 인트로 참고문헌(하향식 체인 순서의 23편)입니다. 모든 근거 문장은 공개 초록에서 그대로 옮긴 것이고 DOI로 레지스트리(Crossref)와 대조한 것입니다.</p>
       <h3>화면 · 처리 · 저장 · 배포</h3>
       <ul>

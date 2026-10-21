@@ -108,6 +108,10 @@ ul.plain li { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 1
 .ref .cite { font-size: 12px; color: var(--muted); }
 .level-head { margin: 14px 0 4px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; }
 
+.warn { background: var(--contest-soft); border: 1px solid var(--contest); color: var(--contest); border-radius: var(--radius); padding: 9px 12px; font-size: 13px; margin: 8px 0; }
+.kw { display: inline-block; background: var(--thin-soft); border-radius: 999px; padding: 3px 10px; margin: 2px 4px 2px 0; font-size: 12.5px; }
+.sent { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.sent .meta { font-size: 12px; color: var(--muted); }
 .foot { text-align: center; color: var(--muted); font-size: 12px; padding: 24px 16px; }
 
 @media (max-width: 860px) {

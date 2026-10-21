@@ -8,6 +8,9 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "api"))
 import label  # noqa: E402
+import search  # noqa: E402
+
+ROUTES = {"/api/label": label.handle, "/api/search": search.handle}
 
 
 class Dev(SimpleHTTPRequestHandler):
@@ -23,13 +26,14 @@ class Dev(SimpleHTTPRequestHandler):
         self.wfile.write(data)
 
     def do_POST(self):
-        if self.path.rstrip("/") == "/api/label":
+        fn = ROUTES.get(self.path.rstrip("/"))
+        if fn:
             n = int(self.headers.get("Content-Length") or 0)
             try:
                 payload = json.loads(self.rfile.read(n).decode("utf-8") or "{}")
             except Exception:  # noqa: BLE001
                 return self._json(400, {"error": "bad json"})
-            code, obj = label.handle(payload)
+            code, obj = fn(payload)
             return self._json(code, obj)
         self._json(404, {"error": "not found"})
 

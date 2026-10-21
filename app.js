@@ -29,12 +29,20 @@
   }
   $$(".tab").forEach((b) => b.addEventListener("click", () => activateTab(b.dataset.tab)));
   activateTab(hashParams().get("tab") || store.get("if.tab", "map"));
+  // 이미 열려 있는 화면에 해시 링크가 들어오면 새로고침이 일어나지 않으므로 직접 받는다
+  window.addEventListener("hashchange", () => {
+    const t = hashParams().get("tab");
+    if (t) activateTab(t);
+    if (state.data) applyHash();
+  });
   function applyHash() {
     const p = hashParams();
     const th = p.get("theme");
     if (th && state.data.themes.some((t) => t.id === th)) { state.selected = th; renderTable(); renderDetail(th); }
     const s = (p.get("s") || "").trim();
     if (s) { $("#label-input").value = s; showResult(heuristic(s), "신호 단어 (링크)"); }
+    const q = (p.get("q") || "").trim();
+    if (q) { $("#q-input").value = q; runSearch(); }
   }
 
   // ------------------------------------------------------------ data
@@ -192,6 +200,44 @@
     const h = store.get("if.labels", []);
     h.unshift(entry); store.set("if.labels", h.slice(0, 20)); renderHistory();
   }
+  // ------------------------------------------------------------ 분야 검색 (라이브)
+  function sentHtml(r) {
+    return `<div class="sent">${esc(r.sentence)}
+      <div class="meta">${esc(r.paper)}${r.venue ? " · " + esc(r.venue) : ""} · <a href="https://doi.org/${esc(r.doi)}" target="_blank" rel="noopener">DOI</a>
+      ${r.cues && r.cues.length ? " · 신호: " + esc(r.cues.slice(0, 3).join(", ")) : ""}</div></div>`;
+  }
+  async function runSearch() {
+    const q = $("#q-input").value.trim();
+    if (!q) { $("#q-status").textContent = "검색어를 넣어 주세요."; return; }
+    const btn = $("#btn-search"); btn.disabled = true;
+    $("#q-status").textContent = "OpenAlex에서 찾는 중…";
+    $("#q-caveat").hidden = true; $("#q-result").innerHTML = "";
+    setHash({ tab: "search", q });
+    try {
+      const r = await fetch("/api/search", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query: q, months: Number($("#q-months").value) }) });
+      const j = await r.json();
+      if (!r.ok || j.error) { $("#q-status").textContent = "찾지 못했습니다: " + (j.error || r.status); return; }
+      $("#q-status").textContent = "";
+      $("#q-caveat").hidden = false;
+      $("#q-caveat").textContent = j.caveat;
+      const kw = (j.keywords || []).map((k) => `<span class="kw">${esc(k.word)} <b>${k.papers}</b></span>`).join("");
+      $("#q-result").innerHTML =
+        `<p class="hint">검색 결과 ${j.hit_count != null ? j.hit_count.toLocaleString() : "?"}건 중 최근·인용 상위 ${j.papers}편을 읽었습니다
+         (초록이 없거나 짧아 건너뛴 논문 ${j.papers_without_abstract}편). 최근 ${j.months}개월 기준.</p>
+         ${kw ? `<h3>한계 문장에 자주 나온 말</h3><p>${kw}</p>` : ""}
+         <h3>아직 한계로 적힌 문장 <span class="muted">${j.gap.length}개</span></h3>
+         ${j.gap.length ? j.gap.map(sentHtml).join("") : "<p class='muted'>없습니다.</p>"}
+         <h3>해결했다고 적은 문장 <span class="muted">${j.solved.length}개</span></h3>
+         ${j.solved.length ? j.solved.map(sentHtml).join("") : "<p class='muted'>없습니다.</p>"}`;
+    } catch (e) {
+      $("#q-status").textContent = "서버에 연결하지 못했습니다(로컬 정적 서버에는 /api가 없습니다): " + e.message;
+    }
+    btn.disabled = false;
+  }
+  $("#btn-search").addEventListener("click", runSearch);
+  $("#q-input").addEventListener("keydown", (e) => { if (e.key === "Enter") runSearch(); });
+
   function renderHistory() {
     const h = store.get("if.labels", []);
     $("#label-history").innerHTML = h.length ? h.map((x) => `<li><span class="badge ${x.kind === "bottleneck" ? "kind-b" : x.kind === "resolution-claim" ? "kind-r" : "thin"}">${esc(KIND_KO[x.kind] || x.kind)}</span> <span class="muted">${esc(x.source)} · ${esc(new Date(x.at).toLocaleString())}</span><br>${esc(x.sentence.slice(0, 160))}</li>`).join("") : "<li class='muted'>아직 없습니다.</li>";
